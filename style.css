@@ -702,23 +702,23 @@ footer .post-list li em {
     -o-transition: all 200ms ease-in;
     -moz-transition: all 200ms ease-in;
 }
-.social .icon-s-pinterest {
+.social .fa-pinterest {
     border-color: #d8545d;
     color: #d8545d;
 }
-.social .icon-s-rss {
+.social .fa-weibo {
     border-color: #faaa5e;
     color: #faaa5e;
 }
-.social .icon-s-facebook {
+.social .fa-facebook {
     border-color: #677fb5;
     color: #677fb5;
 }
-.social .icon-s-twitter {
+.social .fa-twitter {
     border-color: #70c2e9;
     color: #70c2e9;
 }
-.social .icon-s-flickr {
+.social .fa-flickr {
     border-color: #ff3ba4;
     color: #ff3ba4;
 }
@@ -730,31 +730,31 @@ footer .post-list li em {
     border-color: #42a9fb;
     color: #42a9fb;
 }
-.social .icon-s-linkedin {
+.social .fa-linkedin {
     border-color: #3daccf;
     color: #3daccf;
 }
-.social .icon-s-vimeo {
+.social .fa-vimeo {
     border-color: #42b5d4;
     color: #42b5d4;
 }
-.social .icon-s-youtube {
+.social .fa-youtube {
     border-color: #d5615c;
     color: #d5615c;
 }
-.social .icon-s-skype {
+.social .fa-skype {
     border-color: #5ecbf3;
     color: #5ecbf3;
 }
-.social .icon-s-tumblr {
+.social .fa-tumblr {
     border-color: #829fb9;
     color: #829fb9;
 }
-.social .icon-s-weibo {
+/*.social .icon-s-weibo {
     border-color: #6194dc;
     color: #6194dc;
-}
-.social .icon-s-500px {
+}*/
+.social .fa-500px {
     border-color: #3bbbe6;
     color: #3bbbe6;
 }
@@ -778,11 +778,11 @@ footer .post-list li em {
     border-color: #e16747;
     color: #e16747;
 }
-.social .icon-s-dropbox {
+.social .fa-dropbox {
     border-color: #6ba3c5;
     color: #6ba3c5;
 }
-.social .icon-s-github {
+.social .fa-github {
     border-color: #6c93bb;
     color: #6c93bb;
 }
@@ -814,15 +814,15 @@ footer .post-list li em {
     border-color: #9acf48;
     color: #9acf48;
 }
-.social .icon-s-instagram {
+.social .fa-instagram {
     border-color: #926d53;
     color: #926d53;
 }
-.social .icon-s-evernote {
+.social .fa-evernote {
     border-color: #9fdc82;
     color: #9fdc82;
 }
-.social .icon-s-paypal {
+.social .fa-paypal {
     border-color: #5b85a8;
     color: #5b85a8;
 }
@@ -834,19 +834,19 @@ footer .post-list li em {
     border-color: #ff8b45;
     color: #ff8b45;
 }
-.social a:hover .icon-s-pinterest {
+.social a:hover .fa-pinterest {
     background-color: #d8545d
 }
-.social a:hover .icon-s-rss {
+.social a:hover .fa-weibo {
     background-color: #faaa5e
 }
-.social a:hover .icon-s-facebook {
+.social a:hover .fa-facebook {
     background-color: #677fb5
 }
-.social a:hover .icon-s-twitter {
+.social a:hover .fa-twitter {
     background-color: #70c2e9
 }
-.social a:hover .icon-s-flickr {
+.social a:hover .fa-flickr {
     background-color: #ff3ba4
 }
 .social a:hover .icon-s-dribbble {
@@ -855,25 +855,25 @@ footer .post-list li em {
 .social a:hover .icon-s-behance {
     background-color: #42a9fb
 }
-.social a:hover .icon-s-linkedin {
+.social a:hover .fa-linkedin {
     background-color: #3daccf
 }
-.social a:hover .icon-s-vimeo {
+.social a:hover .fa-vimeo {
     background-color: #42b5d4
 }
-.social a:hover .icon-s-youtube {
+.social a:hover .fa-youtube {
     background-color: #d5615c
 }
-.social a:hover .icon-s-skype {
+.social a:hover .fa-skype {
     background-color: #5ecbf3
 }
-.social a:hover .icon-s-tumblr {
+.social a:hover .fa-tumblr {
     background-color: #829fb9
 }
-.social a:hover .icon-s-weibo {
+./*social a:hover .icon-s-weibo {
     background-color: #6194dc
-}
-.social a:hover .icon-s-500px {
+}*/
+.social a:hover .fa-500px {
     background-color: #3bbbe6
 }
 .social a:hover .icon-s-grooveshark {
@@ -891,7 +891,7 @@ footer .post-list li em {
 .social a:hover .icon-s-klout {
     background-color: #e16747
 }
-.social a:hover .icon-s-dropbox {
+.social a:hover .fa-dropbox {
     background-color: #6ba3c5
 }
 .social a:hover .icon-s-github {
@@ -918,13 +918,13 @@ footer .post-list li em {
 .social a:hover .icon-s-spotify {
     background-color: #9acf48
 }
-.social a:hover .icon-s-instagram {
+.social a:hover .fa-instagram {
     background-color: #926d53
 }
-.social a:hover .icon-s-evernote {
+.social a:hover .fa-evernote {
     background-color: #9fdc82
 }
-.social a:hover .icon-s-paypal {
+.social a:hover .fa-paypal {
     background-color: #5b85a8
 }
 .social a:hover .icon-s-picasa {
@@ -1811,13 +1811,13 @@ figure a .text-overlay .info {
 .team img {
     display: block;
     margin: 0 auto; 
-    /*padding-top: 20px;*/
     height: 147px;
     width: 147px;
     border-radius: 50%;
 }
 .team figure {
-    margin-bottom: 25px
+    margin-bottom: 30px;
+    margin-top: 25px;
 }
 .team h3 {
     margin: 0 0 2px 0
